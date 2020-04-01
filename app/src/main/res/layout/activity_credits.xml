@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Credits">
+
+    <TextView
+            android:id="@+id/textView11"
+            android:layout_width="240dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="64dp"
+            android:textAlignment="center"
+            android:text="About us"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/textView12"
+            android:layout_width="74dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="40dp"
+            android:text="Backend:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+            android:id="@+id/textView13"
+            android:layout_width="74dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="20dp"
+            android:text="Frontend:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+            android:id="@+id/textView14"
+            android:layout_width="291dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:text="Kallibr44"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+            android:id="@+id/textView15"
+            android:layout_width="291dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="16dp"
+            android:text="*Кирюха тут свой ник вставишь*"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toEndOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+</androidx.constraintlayout.widget.ConstraintLayout>

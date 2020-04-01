@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "47684731153",
+    "firebase_url": "https://mediawallet-47bc0.firebaseio.com",
+    "project_id": "mediawallet-47bc0",
+    "storage_bucket": "mediawallet-47bc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47684731153:android:2ce278b13ef80251",
+        "android_client_info": {
+          "package_name": "com.kallibr44.mediawallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47684731153-7jfl9mebc6ikkpcrvldm16skmmvpt0dl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kallibr44.mediawallet",
+            "certificate_hash": "dbb91964625723cc28d7a3b23e14e2be06a879ed"
+          }
+        },
+        {
+          "client_id": "47684731153-mmtl3be80nj5sh4o2u4lrun07bsvfq6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8lvjBdvl34eof_fiJViN237792yaRLuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47684731153-mmtl3be80nj5sh4o2u4lrun07bsvfq6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
